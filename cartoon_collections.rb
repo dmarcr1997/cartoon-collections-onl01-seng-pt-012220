@@ -20,4 +20,6 @@ def find_the_cheese(chz_strings)
   cheese_types.each do|e|
     return e if chz_strings.include?(e)
   end 
+  else
+    return nil
 end
