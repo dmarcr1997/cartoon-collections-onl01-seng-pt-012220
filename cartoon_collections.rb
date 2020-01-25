@@ -22,4 +22,5 @@ def find_the_cheese(chz_strings)
   end 
   else
     return nil
+  end
 end
