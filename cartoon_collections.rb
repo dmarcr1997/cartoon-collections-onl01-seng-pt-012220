@@ -9,7 +9,9 @@ def summon_captain_planet(elements)
 end
 
 def long_planeteer_calls(calls)
-  
+  calls.find do |call|
+    return if call.length  >
+  end  
   # Your code here
 end
 
