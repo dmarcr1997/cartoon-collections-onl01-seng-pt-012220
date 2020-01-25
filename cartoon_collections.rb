@@ -17,5 +17,7 @@ end
 
 def find_the_cheese(chz_strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  chz_string.include do 
+  cheese_types.each do|e|
+    return e if chz_string.include?(e)
+  end 
 end
